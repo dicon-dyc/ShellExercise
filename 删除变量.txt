@@ -1,0 +1,4 @@
+#!/bin/bash
+myUrl = "https://github.com/dicon-dyc"
+unset myUrl
+echo $myUrl
