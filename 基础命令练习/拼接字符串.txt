@@ -1,0 +1,4 @@
+#!/bin/bash
+your_name="runoob"
+greeting="Hello! "$your_name"!"
+echo $greeting

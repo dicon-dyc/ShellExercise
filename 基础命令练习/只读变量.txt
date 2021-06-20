@@ -1,0 +1,4 @@
+#!/bin/bash
+myUrl="https://github.com/dicon-dyc"
+readonly myUrl
+myUrl="https://github.com/dicon-dyc/ShellExercise.git"
