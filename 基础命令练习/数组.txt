@@ -1,0 +1,30 @@
+#!/bin/bash
+
+#创建数组
+array_one=('d' 'i' 'c' 'o' 'n')
+
+array_two=()
+array_two[0]='d'
+array_two[1]='i'
+array_two[2]='c'
+array_two[3]='o'
+array_two[4]='n'
+
+echo ${array_one[@]}
+echo ${array_two[@]}
+
+------------------------------------------------
+
+#!/bin/bash
+
+#获取数组的长度
+array_one=('d' 'i' 'c' 'o' 'n')
+length_one=${#array_one[@]}
+length_two=${#array_one[*]}
+#获取数组单个元素的长度
+lengthn=${#array_one[0]}
+echo $length_one
+echo $length_two
+echo $lengthn
+
+------------------------------------------------

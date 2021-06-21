@@ -1,0 +1,22 @@
+#!/bin/bash
+
+#查找字符i或o的位置，哪个字母先出现就计算哪个
+string="dicon is a good boy"
+echo `expr index "$string" io`
+
+--------------------------------------------------------------
+
+#!/bin/bash
+
+#拼接字符串
+your_name="runoob"
+greeting="Hello! "$your_name"!"
+echo $greeting
+
+---------------------------------------------------------------
+
+#!/bin/bash
+
+#提取字符串
+string="dicon is a good boy!"
+echo ${string:0:5} #输出dicon
