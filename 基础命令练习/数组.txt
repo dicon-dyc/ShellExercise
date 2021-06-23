@@ -28,3 +28,9 @@ echo $length_two
 echo $lengthn
 
 ------------------------------------------------
+
+#!/bin/bash
+my_array=(1 2 3)
+
+echo "第一个元素为${my_array[0]}"
+echo "第二个元素为${my_array[1]}"
